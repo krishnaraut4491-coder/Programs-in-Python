@@ -57,7 +57,8 @@ def divide(num1 , num2):
     num2 :- will divide num1(denominator)
     :return: float
     """
-    division = num1 / num2
+    division = num1 / num2 #here you can slove zerodivisionerror by using if else
     return division
-
+help(divide)
 print(divide(500,4))
+help(print)
