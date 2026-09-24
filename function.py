@@ -1,4 +1,4 @@
-#LAMDA 
+#LAMBDA 
 """
 Syntax 
 lamda argument : expression

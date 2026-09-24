@@ -4,7 +4,8 @@
 # # how to import a module
 # # import module
 # # importing only few function or variables : from module_name import function1, function2, function3,.... 
- 
+# # create a alias for module that are imported : import module as alias_name   
+
 # import math
 
 # #calculate the square root 
@@ -31,8 +32,19 @@
 # square_root = math.sqrt(1)
 # print(int(square_root))
 
-# Calculate the area of a circle
-import math
-r = 10
-area_of_circle = (math.pi * (r ** 2)) / 100
-print(area_of_circle)
+# # Calculate the area of a circle
+# import math
+# r = 10
+# area_of_circle = (math.pi * (r ** 2)) / 100
+# print(area_of_circle)
+
+
+# import datetime
+# print(datetime.time(5,10,51))
+# print(datetime.date(10,2,2007))
+
+import recursion
+
+n = 7
+factorial_is = recursion.fact_rec(n)
+print(f"Factorial of {n} is {factorial_is}")
