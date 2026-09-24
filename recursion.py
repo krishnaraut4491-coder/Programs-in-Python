@@ -16,7 +16,6 @@ there are 2 parts of recursive function
 #         n=n-1
 #     print(n_factorial)
 # fac(4)
-
 #with recursion
 def fact_rec(n):
     if n == 1:
@@ -26,4 +25,5 @@ def fact_rec(n):
         n=n-1
     return n_factorial
 
-print(fact_rec(5))
+if __name__ == "__main__":
+    print(f" factorial is {fact_rec(5)}")
