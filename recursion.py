@@ -26,4 +26,5 @@ def fact_rec(n):
     return n_factorial
 
 if __name__ == "__main__":
-    print(f" factorial is {fact_rec(5)}")
+    n = int(input("Enter a number: "))
+    print(f"factorial is {fact_rec(n)}")
