@@ -1,55 +1,55 @@
-# def add(a,b):
-#     add=a+b
+def add(a,b):
+    add=a+b
 
 
-# #positional argumemnts:- passing the argument in order to their position 
-# add(10,20)
+#positional argumemnts:- passing the argument in order to their position 
+add(10,20)
 
-# #default arguments:-
-# # def add(a,b=10):
-# #     add=a+b
-# #     return add
-# # addition=add(1651,9)
-# # print(addition)
-# # addition=add(1651)
-# # print(addition)
+#default arguments:-
+def add(a,b=10):
+    add=a+b
+    return add
+addition=add(1651,9)
+print(addition)
+addition=add(1651)
+print(addition)
 
-# def add(a,b=10):
-#     add=a+b+c
-#     print(add)
-# add(22)
+def add(a,b=10):
+    add=a+b
+    print(add)
+add(22)
 
-#*arg :-variable length positional from 1 to n
-# def add(*argument):
-#     return sum(argument)
+# *arg :-variable length positional from 1 to n
+def add(*argument):
+    return sum(argument)
 
-# addition=add()
-# print(addition)
+addition=add()
+print(addition)
 
-# def student_details(id,name,*marks):
-#     per=sum(marks)/len(marks)
-#     print(f"{name} with id {id} has {per}%")
+def student_details(id,name,*marks):
+    per=sum(marks)/len(marks)
+    print(f"{name} with id {id} has {per}%")
 
-# student_details(42350,'Krishna Raut',98,85,78,98,95,91)
+student_details(42350,'Krishna Raut',98,85,78,98,95,91)
 
-# #**kwarg :- variable length keyword argument
-# def fun(id, name, *games, **marks):
-#     per=sum(marks.values()) / len(marks)
-#     print(f"{name} with id {id} has percentage {per}")
-#     print(f"{name} plays {games}")
+#**kwarg :- variable length keyword argument
+def fun(id, name, *games, **marks):
+    per=sum(marks.values()) / len(marks)
+    print(f"{name} with id {id} has percentage {per}")
+    print(f"{name} plays {games}")
 
-# fun(42350, "Krishna Raut" , "volleyball" ,m1=85,m2=87,m3=83)
-# fun(42380, "Saurabh Raut" , "football", "basketball", m1=87,m2=86,m3=84)
+fun(42350, "Krishna Raut" , "volleyball" ,m1=85,m2=87,m3=83)
+fun(42380, "Saurabh Raut" , "football", "basketball", m1=87,m2=86,m3=84)
 
-# #doc sting :
-# def fun():
-#     """
-#     this is doc string
-#     :return: None
-#     """
-#     return None
+#doc sting :
+def fun():
+    """
+    this is doc string
+    :return: None
+    """
+    return None
 
-# print(help(fun))
+print(help(fun))
 
 def divide(num1 , num2):
     """
@@ -61,4 +61,19 @@ def divide(num1 , num2):
     return division
 help(divide)
 print(divide(500,4))
-help(print)
+
+# #help :- It gives the info about the function
+
+#passing function as an argument
+def add(number):
+    return number + 1
+
+def square(number):
+    return number ** 2
+
+num = int(input("Enter a number:"))
+result_1 = add(num)
+result_2 = square(result_1)
+print(result_2)
+result = square(add(num))
+print(result)
