@@ -142,4 +142,4 @@ print(nested_list[3][1][1][1][0]) #printing 6 from the nested list
 print(nested_list[-1][-1][-1][-1][-1][-1]) #printing 63 from the nested list
 print(nested_list[-2])
 #all operations of the list
-#append(), insert(), extend(), remove(), pop(), reverse(), sort(), count(), in/not in, min(), max(), sum()
+#append(), insert(), extend(), remove(), pop(), reverse(), sort(), count(), in/not in, min(), max(), sum(), strip(), rstrip()
