@@ -7,11 +7,10 @@ or in python
 #open(file_name,file_mode)
 #modes : r,w,x,a,t,d,rt(default)=> rt,wt,xt,at,rb,wb,xb,ab
 #file_name.close()
-
-# with open("firstcode.py","rt") as first_code:
-#     content = first_code.read()
-
-# print(content)
+# with statement : we do not need to close the file and do not show error at runtime
+# we do not need to open or close file without any errors
+# with open("file_name","modes") as file_name_in_program:
+#    info = file_name_in_program.mode()
 
 
 # to check file exits or not
