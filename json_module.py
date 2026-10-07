@@ -15,3 +15,4 @@ else:
     students_info.update(students)
     with open ("student_data.json", "w") as jsonfile:
         json.dump(students_info, jsonfile, indent = 4)
+        

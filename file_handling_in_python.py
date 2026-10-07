@@ -21,15 +21,15 @@ python
 # new.write("#file_name.close()\n")
 # new.close()
 
-# read_file = open("Sets_in_python.py","rt")
+read_file = open("Sets_in_python.py","rt")
 
-# lines = read_file.readline()
-# content = read_file.read()
+lines = read_file.readlines()
+content = read_file.read()
 # print(len(content))
 # print(content)
 # print(type(content))
 # print(lines)
-# print(type(lines))
+print(len(lines))
 # for line in lines:
 #     print(line.rstrip("\n"))
 # if empty string is given means end of list or file are ended

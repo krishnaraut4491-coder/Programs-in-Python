@@ -5,7 +5,7 @@ for i in s1:
     print(i)
 
 for n in range(1,896,100):
-     print(n) 
+     print(n-1) 
 
 #sum of numbers
 addition = 0 
