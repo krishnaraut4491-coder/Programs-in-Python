@@ -15,7 +15,7 @@ print(student_marks)
 
 #get()
 print(student_marks.get('Krishna'))
-print(student_marks.get('Vedant')) #This doen't give an error instead it gives 'None'
+print(student_marks.get('Vedant')) #This doesn't give an error instead it gives 'None'
 print(student_marks.get('Vedant',34))
 
 #Membership operator
